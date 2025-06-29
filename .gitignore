@@ -10,14 +10,9 @@ config/credentials.json
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Data dumps
-*.csv
-*.sqlite
-*.db
-
 # VS Code config
 .vscode/
 
 # Raw & processed data
-data/
-!data/.gitkeep
+data/**
+!data/**/.gitkeep
